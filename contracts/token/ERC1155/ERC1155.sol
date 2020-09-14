@@ -2,6 +2,8 @@
 
 pragma solidity ^0.6.0;
 
+import "./ERC1155Burnable.sol";
+import "./ERC155Pausable.sol";
 import "./IERC1155.sol";
 import "./IERC1155MetadataURI.sol";
 import "./IERC1155Receiver.sol";
@@ -9,8 +11,7 @@ import "../../GSN/Context.sol";
 import "../../introspection/ERC165.sol";
 import "../../math/SafeMath.sol";
 import "../../utils/Address.sol";
-import "./ERC1155Burnable.sol";
-import "./ERC155Pausable.sol";
+
 
 /**
  *
